@@ -3,7 +3,7 @@ function calculate() {
     let b=document.getElementById("value2").value;
     let c=document.getElementById("operation").value;
     let d;
-    if (c==="+") {d=(a*100)/100+(b*100)/100}
+    if (c==="+") {d=Number(a)+Number(b)}
     if (c==="-") {d=a-b}
     if (c==="/") {
         if(b==0) alert('Cannot divide by zero');
